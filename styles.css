@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    left: 37%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(50, 50, 140);
+}
+
+#taskInput {
+    height: 1rem;
+    width: 20rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#addTaskBtn {
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(50, 50, 140);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 5px;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+li:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+button.deleteBtn {
+    background-color: rgb(50, 50, 140);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
